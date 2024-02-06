@@ -4,5 +4,5 @@ export interface IBlogPostObject {
   snippet: string;
   headline: string;
   body: string;
-  images: string;
+  images: string[];
 }
