@@ -1,0 +1,45 @@
+@property --bg-dark {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #0d141c;
+}
+
+@property --text-light {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #c8cfe8;
+}
+
+@font-face {
+  font-family: "Abel";
+  src: url("./assets/fonts/Abel-Regular.ttf") format("truetype");
+}
+
+* {
+  line-height: .95;
+}
+
+body {
+  font-family: "Abel" !important;
+}
+
+.navbar {
+  filter: opacity(90%);
+}
+
+.header {
+  background: var(--bg-dark);
+  height: 95vh;
+  color: var(--text-light);
+  padding-top: 12em;
+}
+
+.content-break1 {
+  background: var(--bg-dark) url("./assets/images/content-break1-bg.jpeg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.85);
+}
