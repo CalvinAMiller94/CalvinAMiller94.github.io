@@ -7,7 +7,13 @@
 @property --text-light {
   syntax: "<color>";
   inherits: false;
-  initial-value: #c8cfe8;
+  initial-value: #c8d6e8;
+}
+
+@property --link-text-light {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #8ab3e9;
 }
 
 @font-face {
@@ -35,11 +41,31 @@ body {
 }
 
 .content-break1 {
-  background: var(--bg-dark) url("./assets/images/content-break1-bg.jpeg");
+  background: var(--bg-dark) url("./assets/images/content-break1-bg.jpg");
   height: 50vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(0.85);
+}
+
+.content-break2 {
+  background: var(--bg-dark) url("./assets/images/content-break2-bg.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.65) hue-rotate(220deg) grayscale(50%);
+}
+
+footer {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  height: 100px;
+  a {
+    text-decoration: none;
+    color: var(--link-text-light);
+  }
 }
