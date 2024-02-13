@@ -1,0 +1,12 @@
+@import url("../style.css");
+
+header {
+  background: var(--bg-dark);
+  color: var(--text-light);
+  padding-top: 4em;
+}
+
+.accordion-button:not(.collapsed) {
+  background: var(--bg-dark) !important;
+  color: var(--text-light) !important;
+}
