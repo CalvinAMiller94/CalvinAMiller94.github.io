@@ -1,0 +1,62 @@
+[
+  {
+    "ID": "1",
+    "Question": "What is the capital of France?",
+    "Answer": "Paris"
+  },
+  {
+    "ID": "2",
+    "Question": "Who wrote 'To Kill a Mockingbird'?",
+    "Answer": "Harper Lee"
+  },
+  {
+    "ID": "3",
+    "Question": "What is the chemical symbol for water?",
+    "Answer": "H2O"
+  },
+  {
+    "ID": "4",
+    "Question": "Which planet is known as the Red Planet?",
+    "Answer": "Mars"
+  },
+  {
+    "ID": "5",
+    "Question": "Who painted the Mona Lisa?",
+    "Answer": "Leonardo da Vinci"
+  },
+  {
+    "ID": "6",
+    "Question": "What is the largest mammal in the world?",
+    "Answer": "Blue whale"
+  },
+  {
+    "ID": "7",
+    "Question": "Who invented the lightbulb?",
+    "Answer": "Thomas Edison"
+  },
+  {
+    "ID": "8",
+    "Question": "What is the square root of 64?",
+    "Answer": "8"
+  },
+  {
+    "ID": "9",
+    "Question": "Which country is famous for its tulips?",
+    "Answer": "Netherlands"
+  },
+  {
+    "ID": "10",
+    "Question": "Who wrote 'Romeo and Juliet'?",
+    "Answer": "William Shakespeare"
+  },
+  {
+    "ID": "11",
+    "Question": "What is the tallest mountain in the world?",
+    "Answer": "Mount Everest"
+  },
+  {
+    "ID": "12",
+    "Question": "What is the currency of Japan?",
+    "Answer": "Yen"
+  }
+]
