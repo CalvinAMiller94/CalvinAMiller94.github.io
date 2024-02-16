@@ -33,10 +33,13 @@ body {
   filter: opacity(90%);
 }
 
-.header {
-  background: var(--bg-dark);
-  height: 95vh;
+header {
   color: var(--text-light);
+  background: var(--bg-dark);
+}
+
+.landing-page-header {
+  height: 95vh;
   padding-top: 12em;
 }
 

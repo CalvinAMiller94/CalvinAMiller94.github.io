@@ -1,8 +1,6 @@
 @import url("../style.css");
 
-header {
-  background: var(--bg-dark);
-  color: var(--text-light);
+.faq-header {
   padding-top: 4em;
 }
 
