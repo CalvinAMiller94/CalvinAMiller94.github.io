@@ -5,7 +5,7 @@ window.onload = (event) => {
 }
 
 function generateList(faqList) {
-  let listContainer = document.getElementById('accordion-container');
+  let listContainer = document.getElementById('faq-accordion-container');
   faqList.forEach(faqItem => {
     console.log(faqItem);
     let accordionItem = document.createElement('div');

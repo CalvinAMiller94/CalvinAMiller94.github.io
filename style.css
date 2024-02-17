@@ -1,4 +1,4 @@
-@property --bg-dark {
+@property --main-dark {
   syntax: "<color>";
   inherits: false;
   initial-value: #0d141c;
@@ -35,7 +35,7 @@ body {
 
 header {
   color: var(--text-light);
-  background: var(--bg-dark);
+  background: var(--main-dark);
 }
 
 .landing-page-header {
@@ -44,7 +44,7 @@ header {
 }
 
 .content-break1 {
-  background: var(--bg-dark) url("./assets/images/content-break1-bg.jpg");
+  background: var(--main-dark) url("./assets/images/content-break1-bg.jpg");
   height: 50vh;
   background-attachment: fixed;
   background-position: center;
@@ -54,7 +54,7 @@ header {
 }
 
 .content-break2 {
-  background: var(--bg-dark) url("./assets/images/content-break2-bg.jpg");
+  background: var(--main-dark) url("./assets/images/content-break2-bg.jpg");
   height: 50vh;
   background-attachment: fixed;
   background-position: center;
@@ -63,10 +63,35 @@ header {
   filter: brightness(0.65) hue-rotate(220deg) grayscale(50%);
 }
 
+div.social-link {
+  padding-top: 6px;
+  margin: auto;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+
+  a {
+    color: var(--main-dark);
+  }
+}
+
+div.insta:hover {
+  background-image: linear-gradient(to bottom left, purple, red, yellow);
+}
+
+div.tiktok:hover {
+  background-image: linear-gradient(to bottom right, #00f2ea, #ff0050);
+}
+
+div.youtube:hover {
+  background-color: #FF0000;
+}
+
 footer {
-  background-color: var(--bg-dark);
+  background-color: var(--main-dark);
   color: var(--text-light);
   height: 100px;
+
   a {
     text-decoration: none;
     color: var(--link-text-light);
