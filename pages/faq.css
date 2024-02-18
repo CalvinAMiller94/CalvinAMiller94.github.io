@@ -5,6 +5,6 @@
 }
 
 .accordion-button:not(.collapsed) {
-  background: var(--bg-dark) !important;
+  background: var(--main-dark) !important;
   color: var(--text-light) !important;
 }

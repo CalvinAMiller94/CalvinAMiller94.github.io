@@ -17,7 +17,7 @@ function generateList(faqList) {
       ${faqItem.Question}
     </button>
   </h2>
-  <div id="collapse${faqItem.ID}" class="accordion-collapse collapse" data-bs-parent="#accordion-container">
+  <div id="collapse${faqItem.ID}" class="accordion-collapse collapse" data-bs-parent="#faq-accordion-container">
     <div class="accordion-body">
     ${faqItem.Answer}
     </div>
