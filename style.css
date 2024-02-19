@@ -30,7 +30,11 @@ body {
 }
 
 .navbar {
-  filter: opacity(90%);
+  filter: opacity(97%);
+}
+
+.box-shadow {
+  box-shadow: 0px 4px 9px 8px rgba(18, 20, 22, 0.8);
 }
 
 header {
