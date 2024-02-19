@@ -63,6 +63,11 @@ header {
   filter: brightness(0.85);
 }
 
+.custom-btn {
+  color: var(--text-light) !important;
+  background-color: var(--main-dark) !important;
+}
+
 div.social-link {
   padding-top: 6px;
   margin: auto;

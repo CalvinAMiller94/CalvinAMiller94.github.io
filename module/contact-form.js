@@ -16,10 +16,17 @@ function generateContactForm() {
         <input type="email" class="form-control" id="emailControl">
       </div>
     </div>
-    <div class="row">
+    <div class="row mb-3">
       <div class="col">
         <Label for="messageControl" class="form-label">Message</Label>
         <textarea class="form-control" rows="6" id="messageControl"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <button type="submit" class="btn custom-btn py-0 float-end">
+          <small><i class="bi bi-send px-1"></i>send</small>
+        </button>
       </div>
     </div>
   `;
