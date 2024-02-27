@@ -4,6 +4,10 @@
   padding-top: 4em;
 }
 
+button.accordion-button {
+  font-size: 20px;
+}
+
 .accordion-button:not(.collapsed) {
   background: var(--main-dark) !important;
   color: var(--text-light) !important;

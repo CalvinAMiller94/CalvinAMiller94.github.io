@@ -24,7 +24,7 @@ function generateContactForm() {
     </div>
     <div class="row">
       <div class="col">
-        <button type="submit" class="btn custom-btn py-0 float-end">
+        <button type="submit" class="btn custom-btn py-1 float-end">
           <small><i class="bi bi-send px-1"></i>send</small>
         </button>
       </div>
