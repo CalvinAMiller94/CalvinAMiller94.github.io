@@ -1,5 +1,10 @@
 @import url("../../style.css");
 
-.faq-header {
+.blog-header {
   padding-top: 4em;
+}
+
+div.card-header {
+  background: var(--main-dark);
+  color: var(--text-light);
 }

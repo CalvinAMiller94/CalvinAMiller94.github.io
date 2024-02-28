@@ -9,6 +9,9 @@ function MapBlogPosts(blogPostObject) {
   console.log("map blog posts");
   blogPostObject.forEach(blogPost => {
     definedBlogPost = blogPost;
-    console.log(definedBlogPost.ID);
+    // console.log(definedBlogPost);
+    console.log(definedBlogPost.ID % 3 == 0);
   });
 }
+
+// for every 3 blogPost's, we need a row with 3 columns with a card in each column. 

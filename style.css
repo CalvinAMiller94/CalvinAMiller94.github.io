@@ -4,6 +4,12 @@
   initial-value: #0d141c;
 }
 
+@property --main-light {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #f6fbff;
+}
+
 @property --text-light {
   syntax: "<color>";
   inherits: false;
@@ -25,7 +31,12 @@
   line-height: .95;
 }
 
-div, p {
+body {
+  background-color: var(--main-light) !important;
+}
+
+div,
+p {
   font-size: 20px;
 }
 
