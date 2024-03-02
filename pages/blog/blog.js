@@ -1,13 +1,12 @@
-import data from './models/blog-post.object.json' assert { type: 'json' }
+import { getAllBlogPost } from "./services/blog.api.js";
 
 window.onload = (event) => {
-  MapBlogPosts(data);
+  MapBlogPosts(getAllBlogPost());
 }
 
 function MapBlogPosts(blogPostObject) {
   let definedBlogPost = { ID: 0, Title: "", Headline: "", Content: "" };
   let blogListContainer = document.getElementById('blog-list-container');
-  console.log("map blog posts");
   blogPostObject.forEach(blogPost => {
     definedBlogPost = blogPost;
     let blogCard = document.createElement('div');
@@ -26,5 +25,3 @@ function MapBlogPosts(blogPostObject) {
     blogListContainer.append(blogCard);
   });
 }
-
-// for every 3 blogPost's, we need a row with 3 columns with a card in each column. 

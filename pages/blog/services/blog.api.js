@@ -1,13 +1,18 @@
-import data from '../models/blog-post.object.json' assert { type: 'json' }
+import blogList from '../models/blog-post.object.json' assert { type: 'json' }
 
-let definedBlogPost = { ID: 0, Title: "", Headline: "", Content: "" };
-
-export function getBlogPostByID(ID) {
-  let blogList = data;
-  blogList.forEach(blogPost => {
-    definedBlogPost = blogPost;
-    if (definedBlogPost.ID = ID) {
-      return definedBlogPost;
-    }
-  });
+export function getBlogPostByID(searchParam) {
+  let searchID = parseInt(searchParam);
+  return blogList.find(({ ID }) => ID === searchID);
 }
+
+export function getAllBlogPost() {
+  return blogList;
+}
+
+export function postBlogPost(newPost) {
+  blogList.append(newPost);
+}
+
+// export function deleteBlogPost(postToDelete) {
+//   blogList.
+// }

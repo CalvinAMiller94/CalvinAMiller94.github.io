@@ -33,6 +33,7 @@
 
 body {
   background-color: var(--main-light) !important;
+  scroll-behavior: smooth;
 }
 
 div,
