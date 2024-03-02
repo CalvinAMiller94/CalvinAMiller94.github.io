@@ -4,6 +4,29 @@
   padding-top: 4em;
 }
 
+.card {
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: all .2s;
+
+  .card-header {
+    height: 192px;
+  }
+
+  .card-body {
+    height: 130px;
+  }
+}
+
+.card:hover {
+  transform: scale(1.0125);
+}
+
+.card:active {
+  transform: scale(1);
+  box-shadow: none;
+}
+
 div.card-header {
   background: var(--main-dark);
   color: var(--text-light);
