@@ -1,51 +1,51 @@
 [
   {
-    "ID": "1",
+    "ID": 1,
     "Question": "What kind of lessons do you teach and where do you teach them?",
     "Answer": "I teach lessons out of my home studio in the greater Akron Ohio area. I offer in-person private lessons as well as online private and group lessons for all ages and ability levels."
   },
   {
-    "ID": "2",
+    "ID": 2,
     "Question": "What is your pricing for lessons?",
     "Answer": "Private lessons are priced at $30 per half hour while group classes are priced at $20 per half hour."
   },
   {
-    "ID": "3",
+    "ID": 3,
     "Question": "Do you teach beginners?",
     "Answer": "Yes! I've started countless beginners in my 10+ years of teaching and I thoroughly enjoy it. With my youngest student being 4 years old and my oldest 72, It's never too early or too late to get started."
   },
   {
-    "ID": "4",
+    "ID": 4,
     "Question": "How do you provide drum tracks for session work?",
     "Answer": "I record raw drum tracks to be EQ'd/mixed for any style of music. I also provide mixed drums for an additional fee. Pricing may vary depending on the length and number of recordings."
   },
   {
-    "ID": "5",
+    "ID": 5,
     "Question": "What does your lesson curriculum consist of?",
     "Answer": "I provide a custom lesson curriculum that meets students where their current musical knowledge is. These areas of musicianship include but are not limited to: expression, creativity, technique, music literacy, style, composition, tuning, rhythm, transcriptions, and music appreciation."
   },
   {
-    "ID": "6",
+    "ID": 6,
     "Question": "What is your teaching availability week to week?",
     "Answer": "I teach Monday thru Friday with some limited availability on Saturday mornings. Because of the large number of students and schedules I manage open lesson times may change week to week. Message me for my current openings!"
   },
   {
-    "ID": "7",
+    "ID": 7,
     "Question": "What instruments do you teach?",
     "Answer": "Currently I teach marching percussion, concert percussion, drum set, steel drums, and world percussion at all skill/ability levels. I also teach beginner and intermediate piano."
   },
   {
-    "ID": "8",
+    "ID": 8,
     "Question": "How do I know what to work on each week in between lessons?",
     "Answer": "Each lesson I provide a short summary of what we worked on and set goals for the following week. All supplemental materials are provided via email from my extensive digital music library."
   },
   {
-    "ID": "9",
+    "ID": 9,
     "Question": "What lesson sessions do you offer and how long is each session?",
     "Answer": "I offer 30 minute and 60 minute private lesson sessions as well as 30 minute small group sessions that meet once a week."
   },
   {
-    "ID": "10",
+    "ID": 10,
     "Question": "What drums/sticks do you recommend I get for lessons?",
     "Answer": "I recommend each student gets a pair of Vic Firth 5A Drumsticks. Depending on your musical goals, students will start with a drum pad or a drum set. A drum pad is a smaller investment that allows a student to try out the drums before deciding to buy a drum set. I recommend an Evans Real Feel 12 Inch Drum Pad. If a student is looking to buy an electronic drum set, I would recommend the Alesis Nitro Mesh or Turbo Mesh Electronic Drum Set. If a student would prefer an acoustic drum set, I would recommend the PDP Encore Series or the Ludwig Accent Series. Message me for more in-depth recommendations!"
   }

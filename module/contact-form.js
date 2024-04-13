@@ -24,36 +24,28 @@ function generateContactForm() {
     </div>
     <div class="row">
       <div class="col">
-        <button type="submit" class="btn custom-btn py-1 float-end">
+        <button type="submit" class="btn custom-btn py-1 float-end" id="sendEmailButton">
           <small><i class="bi bi-send px-1"></i>send</small>
         </button>
       </div>
     </div>
   `;
   contactFormContainer.append(contactForm);
+  contactForm.setAttribute('onsubmit', 'sendEmail()');
+  contactForm.addEventListener('submit', sendEmail);
 }
 
-// Initial SendGrid API call below
+function sendEmail(event) {
+  event.preventDefault();
+  Email.send({
+    SecureToken : "ef7cbd87-0d4c-4dba-8864-7cbe283f238d",
+    To : "andrewmcc1120@gmail.com",
+    From : "workbench@apguitars.com",
+    Subject : "This is a test email",
+    Body : "This test is being sent from the contact form. Please announce its delivery."
+}).then(
+  message => alert(message)
+);
+}
 
-// const sgMail = require('@sendgrid/mail')
-// sgMail.setApiKey(process.env.SENDGRID_API_KEY)
-
-// const msg = {
-//   to: 'test@example.com', // Change to your recipient
-//   from: 'test@example.com', // Change to your verified sender
-//   subject: 'Sending with SendGrid is Fun',
-//   text: 'and easy to do anywhere, even with Node.js',
-//   html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-// }
-
-// sgMail
-//   .send(msg)
-//   .then((response) => {
-//     console.log(response[0].statusCode)
-//     console.log(response[0].headers)
-//   })
-//   .catch((error) => {
-//     console.error(error)
-//   })
-
-// Other options are SMTPJS and smtp.gmail server
+// SMTPJS and smtp.gmail server

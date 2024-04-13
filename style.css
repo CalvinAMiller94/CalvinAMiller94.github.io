@@ -63,8 +63,18 @@ header {
 }
 
 .landing-page-header {
-  height: 95vh;
-  padding-top: 18em;
+  padding-top: 17em;
+  h1 {
+    font-size: 3.5rem !important;
+  }
+}
+
+.padding-33 {
+  padding-top: 33%;
+}
+
+.headshot-faded-light-backdrop {
+  background: radial-gradient(ellipse at bottom,  rgba(246,251,255, 0.4), #0d141c 72%);
 }
 
 .content-break1 {
