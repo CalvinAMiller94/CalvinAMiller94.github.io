@@ -28,7 +28,7 @@
 }
 
 * {
-  line-height: .95;
+  line-height: 1.2;
 }
 
 body {
@@ -74,7 +74,7 @@ header {
 }
 
 .headshot-faded-light-backdrop {
-  background: radial-gradient(ellipse at bottom,  rgba(246,251,255, 0.4), #0d141c 72%);
+  background: radial-gradient(ellipse at bottom,  rgba(246,251,255, 0.4), #0d141c 65%);
 }
 
 .content-break1 {
@@ -109,7 +109,7 @@ iframe {
 }
 
 div.social-link {
-  padding-top: 6px;
+  padding-top: 2px;
   margin: auto;
   height: 32px;
   width: 32px;
