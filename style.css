@@ -62,7 +62,7 @@ body {
 }
 
 .card-box-shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem rgba(80, 80, 80, 0.15);
 }
 
 header {
@@ -112,7 +112,7 @@ header {
 }
 
 .card-body {
-  height: 165px;
+  min-height: 165px;
 }
 
 iframe {
@@ -122,7 +122,7 @@ iframe {
 }
 
 textarea {
-  resize: none;
+  resize: none !important;
 }
 
 .custom-btn {
