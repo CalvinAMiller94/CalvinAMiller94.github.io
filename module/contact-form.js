@@ -42,15 +42,15 @@ function sendEmail(event) {
   let emailAddress = contactForm.email.value;
   let message = contactForm.message.value;
   Email.send({
-    SecureToken : "ef7cbd87-0d4c-4dba-8864-7cbe283f238d",
-    To : "andrewmcc1120@gmail.com",
-    From : "workbench@apguitars.com",
-    Subject : "Contact Form Submission",
-    Body : `Name: ${fullName} <br/> email address: ${emailAddress} <br/> ${message}`
-}).then(
-  message => alert(adjustMessage(message)),
-  contactForm.reset()
-);
+    SecureToken: "ef7cbd87-0d4c-4dba-8864-7cbe283f238d",
+    To: "andrewmcc1120@gmail.com",
+    From: "workbench@apguitars.com",
+    Subject: "Contact Form Submission",
+    Body: `Name: ${fullName} <br/> email address: ${emailAddress} <br/> ${message}`
+  }).then(
+    message => alert(adjustMessage(message)),
+    contactForm.reset()
+  );
 }
 
 function adjustMessage(message) {

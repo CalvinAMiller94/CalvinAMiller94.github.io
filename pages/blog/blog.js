@@ -13,7 +13,7 @@ function MapBlogPosts(blogPostObject) {
     blogCard.classList.add('col-lg-4', 'col-md-6', 'mb-5');
     blogCard.setAttribute('onClick', `navToBlogPost(${definedBlogPost.ID})`);
     blogCard.innerHTML = `
-      <div class="card border-0 rounded-5">
+      <div class="card border-0 rounded-5 card-box-shadow">
         <div class="card-header border-0 rounded-top-5 p-5">
           <h4>${definedBlogPost.Title}</h4>
         </div>
