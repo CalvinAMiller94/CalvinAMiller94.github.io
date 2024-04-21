@@ -7,7 +7,8 @@ window.onload = (event) => {
 function MapBlogPosts(blogPostObject) {
   let definedBlogPost = { ID: 0, Title: "", Headline: "", Content: "" };
   let blogListContainer = document.getElementById('blog-list-container');
-  blogPostObject.forEach(blogPost => {
+  let reverseBlogObject = blogPostObject.reverse();
+  reverseBlogObject.forEach(blogPost => {
     definedBlogPost = blogPost;
     let blogCard = document.createElement('div');
     blogCard.classList.add('col-lg-4', 'col-md-6', 'mb-5');

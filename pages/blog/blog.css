@@ -4,12 +4,20 @@
   padding-top: 4em;
 }
 
+#blog-list-container {
+  min-height: 100vh;
+}
+
 .card {
   cursor: pointer;
   transition: all .2s;
 
   .card-header {
     height: 192px;
+  }
+
+  .card-body {
+    height: 165px;
   }
 }
 
