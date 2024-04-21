@@ -42,9 +42,9 @@ function sendEmail(event) {
   let emailAddress = contactForm.email.value;
   let message = contactForm.message.value;
   Email.send({
-    SecureToken: "ef7cbd87-0d4c-4dba-8864-7cbe283f238d",
-    To: "andrewmcc1120@gmail.com",
-    From: "workbench@apguitars.com",
+    SecureToken: "c81bc918-d5a5-4404-a10a-dc23550b7ce4",
+    To: "calvinmiller@calvinmillerpercussion.com",
+    From: "calvinmiller@calvinmillerpercussion.com",
     Subject: "Contact Form Submission",
     Body: `Name: ${fullName} <br/> email address: ${emailAddress} <br/> ${message}`
   }).then(
