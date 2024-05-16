@@ -10,6 +10,8 @@
 
 .card {
   cursor: pointer;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
   transition: all .2s;
 
   .card-header {
@@ -22,12 +24,17 @@
 }
 
 .card:hover {
-  transform: scale(1.0125);
+  -webkit-transform: scale(1.0125);
+      -ms-transform: scale(1.0125);
+          transform: scale(1.0125);
 }
 
 .card:active {
-  transform: scale(1);
-  box-shadow: none;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 div.card-header {

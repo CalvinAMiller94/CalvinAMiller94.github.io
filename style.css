@@ -50,19 +50,23 @@ body {
 }
 
 .navbar {
-  filter: opacity(97%);
+  -webkit-filter: opacity(97%);
+          filter: opacity(97%);
 }
 
 .box-shadow {
-  box-shadow: 0px 0px 15px 5px rgba(18, 20, 22, 0.8);
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(18, 20, 22, 0.8);
+          box-shadow: 0px 0px 15px 5px rgba(18, 20, 22, 0.8);
 }
 
 .img-box-shadow {
-  box-shadow: 10px 2px 30px 4px rgba(18, 20, 22, 0.4);
+  -webkit-box-shadow: 10px 2px 30px 4px rgba(18, 20, 22, 0.4);
+          box-shadow: 10px 2px 30px 4px rgba(18, 20, 22, 0.4);
 }
 
 .card-box-shadow {
-  box-shadow: 0 0.5rem 1rem rgba(80, 80, 80, 0.15);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(80, 80, 80, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(80, 80, 80, 0.15);
 }
 
 header {
@@ -88,6 +92,7 @@ header {
 }
 
 .headshot-faded-light-backdrop {
+  background: -o-radial-gradient(bottom, ellipse, rgba(246, 251, 255, 0.4), #0d141c 65%);
   background: radial-gradient(ellipse at bottom, rgba(246, 251, 255, 0.4), #0d141c 65%);
 }
 
@@ -98,7 +103,8 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(0.85);
+  -webkit-filter: brightness(0.85);
+          filter: brightness(0.85);
 }
 
 .content-break2 {
@@ -108,7 +114,8 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(0.85);
+  -webkit-filter: brightness(0.85);
+          filter: brightness(0.85);
 }
 
 .card-body {
@@ -143,10 +150,14 @@ div.social-link {
 }
 
 div.insta:hover {
+  background-image: -webkit-gradient(linear, right top, left bottom, from(purple), color-stop(red), to(yellow));
+  background-image: -o-linear-gradient(top right, purple, red, yellow);
   background-image: linear-gradient(to bottom left, purple, red, yellow);
 }
 
 div.tiktok:hover {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#00f2ea), to(#ff0050));
+  background-image: -o-linear-gradient(top left, #00f2ea, #ff0050);
   background-image: linear-gradient(to bottom right, #00f2ea, #ff0050);
 }
 
