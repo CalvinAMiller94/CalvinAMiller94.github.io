@@ -58,7 +58,7 @@ function adjustMessage(message) {
     // sendConfirmationEmail();
     return message = "Thank you for your email!";
   } else {
-    return message;
+    return message = "There was a problem sending your message! If you'd like to continue to reach out, please email me at calvinmiller@calvinmillerpercussion.com, thanks!";
   }
 }
 

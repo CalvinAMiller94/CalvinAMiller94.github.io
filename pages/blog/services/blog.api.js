@@ -1,4 +1,4 @@
-import blogList from '../models/blog-post.object.json' assert { type: 'json' }
+import blogList from '../models/blog-post.object.json' with { type: 'json' }
 
 export function getBlogPostByID(searchParam) {
   let searchID = parseInt(searchParam);
