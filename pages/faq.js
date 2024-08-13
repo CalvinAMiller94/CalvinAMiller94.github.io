@@ -1,4 +1,4 @@
-import data from './models/faq-list.object.json' assert { type: 'json' }
+import data from './models/faq-list.object.json' with { type: 'json' }
 
 window.onload = (event) => {
   generateList(data);
