@@ -1,3 +1,5 @@
+// DEPReCATED
+
 document.addEventListener("DOMContentLoaded", (event) => {
   generateContactForm();
 });
